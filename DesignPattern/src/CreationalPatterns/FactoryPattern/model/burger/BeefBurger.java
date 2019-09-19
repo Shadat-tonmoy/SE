@@ -1,4 +1,4 @@
-package CreationalPatterns.FactoryPattern.model;
+package CreationalPatterns.FactoryPattern.model.burger;
 
 public class BeefBurger extends Burger
 {

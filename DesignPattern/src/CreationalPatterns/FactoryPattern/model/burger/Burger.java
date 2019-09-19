@@ -1,5 +1,6 @@
-package CreationalPatterns.FactoryPattern.model;
+package CreationalPatterns.FactoryPattern.model.burger;
 
+//also following the template pattern
 public abstract class Burger
 {
     protected String burgerName;

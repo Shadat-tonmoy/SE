@@ -1,10 +1,9 @@
 package CreationalPatterns.FactoryPattern.controller;
 
 import CreationalPatterns.FactoryPattern.factory.BurgerFactory;
-import CreationalPatterns.FactoryPattern.model.BeefBurger;
-import CreationalPatterns.FactoryPattern.model.Burger;
-import CreationalPatterns.FactoryPattern.model.CheeseBurger;
-import CreationalPatterns.FactoryPattern.model.VegetableBurger;
+import CreationalPatterns.FactoryPattern.factory.BurgerStoreFactory;
+import CreationalPatterns.FactoryPattern.model.burger.Burger;
+import CreationalPatterns.FactoryPattern.model.burgerStore.BurgerStore;
 
 import java.util.Scanner;
 
@@ -14,7 +13,10 @@ public class BurgerSupplier
     {
         String burgerType;
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Choose Your Region\n Press 1 For India\nPress 2 For Mexico");
+        int region = scanner.nextInt();
+        BurgerStoreFactory burgerStoreFactory = new BurgerStoreFactory();
+        BurgerStore burgerStore = burgerStoreFactory.getBurgerStore(region);
         System.out.println("Choose Burger Type\n Press 1 For Cheese Burger\n Press 2 For Vegetable Burger\n Press 3 For Beef Burger");
         int type = scanner.nextInt();
         System.out.println("Enter the quantity of burger");
@@ -35,8 +37,9 @@ public class BurgerSupplier
                 break;
         }*/
 
-        BurgerFactory burgerFactory = new BurgerFactory();
-        burger = burgerFactory.prepareBurger(type,unit);
+
+        /*BurgerFactory burgerFactory = new BurgerFactory();*/
+        burger = burgerStore.orderBurger(type,unit);
         System.out.println("Your Order Details\n"+burger.getBurgerDetails());
 
 

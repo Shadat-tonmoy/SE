@@ -1,9 +1,9 @@
 package CreationalPatterns.FactoryPattern.factory;
 
-import CreationalPatterns.FactoryPattern.model.BeefBurger;
-import CreationalPatterns.FactoryPattern.model.Burger;
-import CreationalPatterns.FactoryPattern.model.CheeseBurger;
-import CreationalPatterns.FactoryPattern.model.VegetableBurger;
+import CreationalPatterns.FactoryPattern.model.burger.BeefBurger;
+import CreationalPatterns.FactoryPattern.model.burger.Burger;
+import CreationalPatterns.FactoryPattern.model.burger.CheeseBurger;
+import CreationalPatterns.FactoryPattern.model.burger.VegetableBurger;
 
 public class BurgerFactory
 {
