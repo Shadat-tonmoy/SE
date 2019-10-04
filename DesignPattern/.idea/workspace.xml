@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a1fb17f-1b27-4a6d-b2bb-302053b2ea85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/factory/BurgerStoreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/IndianBeefBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/IndianCheeseBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/IndianVegetableBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/MexicanBeefBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/MexicanCheeseBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/MexicanVegetableBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burgerStore/BurgerStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burgerStore/IndianBurgerStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burgerStore/MexicanBurgerStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/LazySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/controller/BurgerSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/controller/BurgerSupplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/factory/BurgerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/factory/BurgerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/BeefBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/BeefBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/CheeseBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/CheeseBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/VegetableBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/FactoryPattern/model/burger/VegetableBurger.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
