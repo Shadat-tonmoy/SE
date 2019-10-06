@@ -9,6 +9,7 @@ public class ThreadSafeSingleton
 
     }
 
+    //synchronization is a costly operation. In order to make it more efficient we should use Double-Check lock mechanism
     public synchronized static ThreadSafeSingleton getInstance()
     {
         if(instance==null)

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a1fb17f-1b27-4a6d-b2bb-302053b2ea85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/DoubleCheckLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/LazySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/ThreadSafeSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreationalPatterns/SingletonPattern/ThreadSafeSingleton.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
